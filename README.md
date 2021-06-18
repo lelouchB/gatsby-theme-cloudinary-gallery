@@ -91,7 +91,7 @@ You can pass the following options to the `gatsby-theme-cloudinary-gallery` them
 | `basePath` | string   | `/`               | `false`  | URL for Gallery Page       |
 | `type`         | string  | false    | `upload` | This is the storage type: upload, private, authenticated, facebook, twitter, gplus, instagram_name, gravatar, youtube, hulu, vimeo, animoto, or dailymotion.            |
 | `maxResults`   | integer | false    | 10      | Maximum number of assets to return (up to 500).                                                                                                      |
-| `prefix`       | string  | false    | ''     | Find all resources with a public ID that starts with the given prefix. The resources are sorted by public ID in the response.                                                           |
+| `prefix`       | string  | false    | `''`     | Find all resources with a public ID that starts with the given prefix. The resources are sorted by public ID in the response.                                                           |
 
 ## Transformations
 By default, the images are displayed using the `Image` component from the [Cloudinary React SDK](https://cloudinary.com/documentation/react_integration). Additional transformation is applied using the `Transformation` component.
