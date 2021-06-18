@@ -1,0 +1,49 @@
+{
+    "name": "gatsby-theme-cloudinary-gallery",
+    "version": "1.0.01",
+    "main": "index.js",
+    "license": "MIT",
+    "author": "Ashutosh K Singh",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lelouchB/gatsby-theme-cloudinary-gallery.git",
+        "directory": "gatsby-theme-cloudinary-gallery"
+    },
+    "bugs": {
+        "url": "https://github.com/lelouchB/gatsby-theme-cloudinary-gallery/issues"
+    },
+    "keywords": [
+        "gatsby",
+        "gatsby-theme",
+        "gatsby-plugin",
+        "react",
+        "images",
+        "cloudinary",
+        "gallery",
+        "cloudinary-gallery"
+    ],
+    "scripts": {
+        "build": "gatsby build",
+        "clean": "gatsby clean",
+        "develop": "gatsby develop"
+    },
+    "peerDependencies": {
+        "gatsby": "^3.7.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "gatsby": "^3.7.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "dependencies": {
+        "cloudinary": "^1.26.0",
+        "cloudinary-react": "^1.7.0",
+        "dotenv": "^10.0.0",
+        "gatsby-plugin-postcss": "^4.7.1",
+        "postcss": "^8.3.5",
+        "autoprefixer": "^10.2.6",
+        "tailwindcss": "^2.1.4"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "private": true,
+    "workspaces": ["gatsby-theme-cloudinary-gallery", "demo"],
+    "scripts": {
+        "dev": "yarn workspace demo dev",
+        "build": "yarn workspace demo build"
+    },
+    "author": "Ashutosh Kumar Singh",
+    "license": "MIT"
+}
