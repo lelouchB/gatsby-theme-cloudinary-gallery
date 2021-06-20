@@ -1,11 +1,22 @@
 {
-    "private": true,
-    "workspaces": ["gatsby-theme-cloudinary-gallery", "demo"],
-    "scripts": {
-        "start":"yarn workspace demo develop",
-        "dev": "yarn workspace demo develop",
-        "build": "yarn workspace demo build"
-    },
-    "author": "Ashutosh Kumar Singh",
-    "license": "MIT"
+  "private": true,
+  "workspaces": [
+    "gatsby-theme-cloudinary-gallery",
+    "demo"
+  ],
+  "scripts": {
+    "start": "yarn workspace demo develop",
+    "dev": "yarn workspace demo develop",
+    "build": "yarn workspace demo build"
+  },
+  "author": "Ashutosh Kumar Singh",
+  "license": "MIT",
+  "keywords": [
+    "gatsby-theme",
+    "image-gallery",
+    "cloudinary-gallery",
+    "cloudinary"
+  ],
+  "name": "gatsby-theme-cloudinary-gallery",
+  "description": " Gatsby Theme to add a Cloudinary Image Gallery to your Gatsby site. "
 }
