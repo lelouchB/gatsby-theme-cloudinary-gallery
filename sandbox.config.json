@@ -3,5 +3,8 @@
   "infiniteLoopProtection": true,
   "hardReloadOnChange": false,
   "view": "browser",
-  "startScript":"dev"
+  "container": {
+    "port": 8000,
+    "startScript": "dev"
+  }
 }
