@@ -2,6 +2,6 @@
   "template": "node",
   "infiniteLoopProtection": true,
   "hardReloadOnChange": false,
-  "view": "browser"
+  "view": "browser",
   "startScript":"dev"
 }
